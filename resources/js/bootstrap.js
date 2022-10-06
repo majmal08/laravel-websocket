@@ -25,6 +25,7 @@ window.Echo = new Echo({
     wsPort: 6001,
     wssPort:6001,
     forceTLS: true,
+    enabledTransports: ['ws', 'wss'],
 });
 
 
