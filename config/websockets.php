@@ -29,7 +29,7 @@ return [
             'secret' => env('PUSHER_APP_SECRET'),
             'path' => env('PUSHER_APP_PATH'),
             'capacity' => null,
-            'useTLS' => true,
+            'useTLS' => false,
             'enable_client_messages' => true,
             'enable_statistics' => true,
         ],
