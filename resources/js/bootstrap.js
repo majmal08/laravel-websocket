@@ -22,8 +22,8 @@ window.Echo = new Echo({
     key: 'anyKey',
     wsHost: "websocket.ovadadme.org",
     wssHost: "websocket.ovadadme.org",
-    wsPort: "",
-    wssPort:"",
+    wsPort: "6001",
+    wssPort:"6001",
     forceTLS: false,
 });
 
