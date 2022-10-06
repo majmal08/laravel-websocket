@@ -24,7 +24,7 @@ window.Echo = new Echo({
     wssHost: "websocket.ovadadme.org",
     wsPort: "",
     wssPort:"",
-    forceTLS: true,
+    forceTLS: false,
 });
 
 
