@@ -20,10 +20,14 @@ window.Pusher = require('pusher-js');
 window.Echo = new Echo({
     broadcaster: 'pusher',
     key: 'anyKey',
-    wsHost: window.location.hostname,
-    wsPort: 6001,
-    forceTLS: false,
+    wsHost: "websocket.ovadadme.org",
+    wssHost: "websocket.ovadadme.org",
+    wsPort: "6002",
+    wssPort: "6002",
+    forceTLS: true,
     disableStats: true,
+    enabledTransports: ['ws', 'wss']
+
 });
 
 
