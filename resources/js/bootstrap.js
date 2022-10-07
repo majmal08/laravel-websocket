@@ -20,10 +20,11 @@ window.Pusher = require('pusher-js');
 window.Echo = new Echo({
     broadcaster: 'pusher',
     key: 'anyKey',
+    cluster: process.env.MIX_PUSHER_APP_CLUSTER,
     wsHost: "websocket.ovadadme.org",
     wssHost: "websocket.ovadadme.org",
-    wsPort: "6002",
-    wssPort: "6002",
+    wsPort: "6001",
+    wssPort: "6001",
     forceTLS: true,
     disableStats: true,
     enabledTransports: ['ws', 'wss']
