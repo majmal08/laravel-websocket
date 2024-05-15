@@ -21,8 +21,10 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '17'
+
       - name: Check Network Access
         run: |
+          echo "Pinging SonarQube server at ${{ secrets.SONAR_HOST_URL }}"
           curl -v ${{ secrets.SONAR_HOST_URL }}
 
       - name: SonarQube Scan
@@ -31,11 +33,3 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
           SONAR_SCANNER_OPTS: -X
-
-
-
-      - name: SonarQube Scan
-        uses: sonarsource/sonarqube-scan-action@master
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
