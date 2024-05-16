@@ -8,6 +8,7 @@ on:
 jobs:
   sonarcloud:
     name: SonarCloud
+    run: vendor/bin/phpcs --standard=phpcs.xml
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,3 +19,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+            args: >
+              -Dsonar.projectKey=majmal08_laravel-websocket
+              -Dsonar.organization=majmal08
+              -Dsonar.sources=app,routes,tests
+              -Dsonar.exclusions=vendor/**
+              -Dsonar.phpcs.reportPath=phpcs-report.xml
