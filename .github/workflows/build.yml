@@ -20,7 +20,7 @@ jobs:
       - name: Add vendor/bin to PATH
         run: export PATH=$PATH:/Users/muhammadajmal/Documents/www/laravel-websocket/vendor/bin
       - name: Run PHPCS
-        run: phpcs --standard=phpcs.xml
+        run: ./vendor/bin/phpcs --standard=phpcs.xml
 
 
       - name: SonarCloud Scan
