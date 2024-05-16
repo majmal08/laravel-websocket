@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
 
       - name: Run PHPCS
-        run: vendor/bin/phpcs --standard=phpcs.xml
+        run: ./vendor/bin/phpcs --standard=phpcs.xml
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
@@ -29,6 +29,5 @@ jobs:
             args: >
               -Dsonar.projectKey=majmal08_laravel-websocket
               -Dsonar.organization=majmal08
-              -Dsonar.sources=app,routes,tests
-              -Dsonar.exclusions=vendor/**
+              -Dsonar.sources=app,routes
               -Dsonar.phpcs.reportPath=phpcs-report.xml
