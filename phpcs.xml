@@ -11,5 +11,6 @@
     <arg name="warning-severity" value="1"/>
     <arg name="error-severity" value="1"/>
     <rule ref="PSR12"/> <!-- Use PSR-12 standard -->
-    <exclude-pattern>*/vendor/*</exclude-pattern> <!-- Exclude vendor directory -->
+    <!-- <exclude-pattern>*/vendor/*</exclude-pattern> -->
+    <!-- Exclude vendor directory -->
 </ruleset>
