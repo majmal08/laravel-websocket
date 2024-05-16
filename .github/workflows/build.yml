@@ -17,12 +17,6 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
 
-      - name: Add vendor/bin to PATH
-        run: export PATH=$PATH:/Users/muhammadajmal/Documents/www/laravel-websocket/vendor/bin
-      - name: Run PHPCS
-        run: ./vendor/bin/phpcs --standard=phpcs.xml
-
-
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
