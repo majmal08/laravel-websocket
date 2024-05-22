@@ -1,32 +1,41 @@
 <?xml version="1.0"?>
-<!-- @see https://pear.php.net/manual/en/package.php.php-codesniffer.annotated-ruleset.php -->
 <ruleset name= "Laravel PHPCS Rules">
 
     <description>PHPCS ruleset for Example app.</description>
 
-    <file>tests</file>
     <file>app</file>
 
     <!-- Show progress of the run -->
-    <arg value= "p"/>
+    <!-- <arg value= "p"/> -->
 
     <!-- Show sniff codes in all reports -->
-    <arg value= "s"/>
+    <!-- <arg value= "s"/> -->
 
-    <!-- Our base rule: set to PSR12 -->
-    <rule ref="PSR12">
-        <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceBefore"/>
-        <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceAfter"/>
-    </rule>
-
-    <rule ref= "Generic.Files.LineLength">
+    <!-- <rule ref="MyStandard">
+        <exclude name="Squiz.Functions.FunctionDeclaration"/>
         <properties>
-            <property name="lineLimit" value="80"/>
-            <property name="absoluteLineLimit" value="120"/>
+            <property name="maxLength" value="70"/>
         </properties>
-    </rule>
-    <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
+    </rule> -->
+
+    <!-- <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
         <exclude-pattern>tests/</exclude-pattern>
-    </rule>
+    </rule> -->
+
+     <!-- Include rules for detecting unused variables and unused code -->
+    <!-- <rule ref="SlevomatCodingStandard.Variables.UnusedVariable"/>
+    <rule ref="Squiz.PHP.CommentedOutCode"/> -->
+
+
+    <!-- Enforce camelCase naming for function names -->
+    <!-- <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"/> -->
+
+
+
+    <!-- Enforce camelCase naming for variable names -->
+    <!-- <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/> -->
+
 
 </ruleset>
+
+
