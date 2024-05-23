@@ -11,7 +11,7 @@ class UserController extends Controller
     protected function unusedProtectedPrivateFunction() {}
     public function unusedPublicPrivateFunction() {}
 
-    public function DoSomething(Request $request)
+    public function camel_omething(Request $request)
     {
 
        $var_case = "hello world";
