@@ -7,15 +7,12 @@ use Illuminate\Support\Facades\Redis;
 
 class UserController extends Controller
 {
-    private function unusedPrivateFunction() {}
-    protected function unusedProtectedPrivateFunction() {}
-    public function unusedPublicPrivateFunction() {}
 
-    public function camel_omething(Request $request)
+
+    public function camel_omething()
     {
 
        $var_case = "hello world";
-       $var = 'test'; //this is the testing comment
 
        $data = '<ruleset name= "Laravel PHPCS Rules">
 
