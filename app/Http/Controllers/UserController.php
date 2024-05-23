@@ -9,7 +9,7 @@ class UserController extends Controller
     public function index_case()
     {
        $var_case = "hello world";
-       return $var_case;
+       return $var_case; //this is the default comment to check the rules
 
 
     }
