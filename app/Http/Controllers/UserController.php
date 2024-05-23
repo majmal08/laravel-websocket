@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function indexCase()
+    public function index_case()
     {
-       $varCase = "hello world";
-       return $varCase; //this is the default comment to check the rules
-
+       $var_case = "hello world";
+       $var = 'test';
+       return $var_case;
 
     }
 }
