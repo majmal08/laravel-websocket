@@ -13,8 +13,9 @@ class UserController extends Controller
     {
 
        $var_case = "hello world";
+       $cameCase = "camel Case";
 
-       return $var_case;
+       return $var_case . $cameCase;
 
     }
 }
