@@ -3,11 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redis;
 
 class UserController extends Controller
 {
-    public function index_case()
+    private function unusedPrivateFunction() {}
+    protected function unusedProtectedPrivateFunction() {}
+    public function unusedPublicPrivateFunction() {}
+
+    public function DoSomething(Request $request)
     {
+
        $var_case = "hello world";
        $var = 'test'; //this is the testing comment
 
