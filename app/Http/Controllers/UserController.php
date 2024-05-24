@@ -8,9 +8,7 @@ use Illuminate\Support\Facades\Redis;
 class UserController extends Controller
 {
 
-    private $snakeCase;
-    protected $snakeCaseProtected;
-    public $snake_casePublic;
+    private $snake_case;
 
     public function camel_omething()
     {
