@@ -9,16 +9,75 @@ class UserController extends Controller
 {
 
     private $snake_case;
+    public $snake_casse;
 
     public function camel_omething()
     {
 
        $var_case = "hello world";
        $cameCase = "camel Case";
+       $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case"; $var_case = "hello world";
+       $cameCase = "camel Case";
 
        return $var_case;
 
     }
-    private $snake_ccase;
 
 }
