@@ -15,16 +15,6 @@ class UserController extends BaseController
     {
 
        $var_case = "hello world";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case";
-       $cameCase = "camel Case"; // this is the null code ok
 
        return $var_case;
 
