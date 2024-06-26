@@ -2,79 +2,29 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redis;
+use App\Http\Controllers\BaseController;
 
-class UserController extends Controller
+
+class UserController extends BaseController
 {
 
     private $snake_case;
-    public $snake_casse;
+    public $cameCase;
 
     public function camel_omething()
     {
 
        $var_case = "hello world";
        $cameCase = "camel Case";
-       $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
-       $cameCase = "camel Case"; $var_case = "hello world";
        $cameCase = "camel Case";
+       $cameCase = "camel Case";
+       $cameCase = "camel Case";
+       $cameCase = "camel Case";
+       $cameCase = "camel Case";
+       $cameCase = "camel Case";
+       $cameCase = "camel Case";
+       $cameCase = "camel Case";
+       $cameCase = "camel Case"; // this is the null code ok
 
        return $var_case;
 
