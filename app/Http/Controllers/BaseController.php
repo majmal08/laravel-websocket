@@ -15,7 +15,6 @@ class BaseController extends Controller
 
     public function errorResponse($status, $message, $code)
     {
-        $unused_var = "un used variable";
         return response([
             'status' => $status,
             'message' => $message
