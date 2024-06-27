@@ -10,7 +10,7 @@ class UserController extends BaseController
 
     public function camel_omething()
     {
-        $var = "Not using";
+        $var_unused = "Not using";
        $var_case = "hello world";
        return $var_case;
 
