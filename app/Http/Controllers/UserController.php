@@ -12,6 +12,7 @@ class UserController extends BaseController
     {
 
        $var_case = "hello world";
+       $var = "Not using";
 
        return $var_case;
 
